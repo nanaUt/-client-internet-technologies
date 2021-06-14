@@ -1,0 +1,27 @@
+#info-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#users-row {
+  margin-top: 20px;
+}
+
+.card {
+  margin: 5px 5px;
+}
+
+#preloader {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.not-visible {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
