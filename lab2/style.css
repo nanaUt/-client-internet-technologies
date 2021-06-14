@@ -1,0 +1,132 @@
+body {
+  font: 10pt Arial, Helvetica, sans-serif;
+  background: #9b887c10;
+  margin: 0; /* off отступы */
+}
+h2 {
+  font-size: 1.1em;
+  color: #1d2ec4;
+  margin-bottom: 10;
+}
+#container {
+  width: 1365px;
+  height: 625px;
+  background: #2d7a741e;
+}
+#header {
+  background: #7d32e0;
+  font-size: 24pt;
+  text-align: center;
+  font-weight: bold;
+  color: #edeed5;
+  padding: 30px;
+}
+#content {
+  float: left;
+  width: 1129px;
+  height: 500px;
+  padding: 10px;
+  background: #fff;
+}
+#sidebar {
+  float: left;
+  width: 150px;
+  padding: 10px;
+  overflow: auto;
+}
+#footer {
+  background: #7d32e0;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  position: fixed;
+  width: 1365px;
+  bottom: 0px;
+}
+.button {
+  background-color: rgb(84, 44, 148);
+  border-radius: 8px;
+  color: white;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: 12px sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  right: -5px;
+  position: fixed;
+  top: 230px;
+  left: 455px;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(84, 44, 148);
+}
+.button1:hover {
+  background-color: rgb(84, 44, 148);
+  color: white;
+}
+h3 {
+  font-size: 1.1em;
+  color: #1d2ec4;
+  text-align: center;
+}
+
+#x1 {
+  text-align: center;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: 3em;
+  margin-top: 150px;
+}
+
+#x2 {
+  margin-left: auto;
+  margin-right: 3em;
+  text-align: center;
+  font-style: italic;
+}
+
+.one {
+  position: absolute;
+  margin: 0;
+  top: 26%;
+  left: 33%;
+}
+
+.two {
+  position: absolute;
+  margin: 0;
+  top: 26%;
+  left: 40%;
+}
+
+.three {
+  position: absolute;
+  margin: 0;
+  top: 26%;
+  left: 46%;
+}
+
+#four {
+  position: absolute;
+  font-style: italic;
+  top: 26%;
+  left: 38%;
+}
+
+#five {
+  position: absolute;
+  font-style: italic;
+  top: 165px;
+  left: 610px;
+}
+
+#six {
+  position: absolute;
+  font-style: italic;
+  top: 165px;
+  left: 51%;
+}
