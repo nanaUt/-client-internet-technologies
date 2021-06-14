@@ -1,0 +1,219 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#error {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.non-visible {
+  display: none;
+}
+
+.visible {
+  display: flex;
+}
+#pagination {
+  width: 270px;
+}
+#pages {
+  display: flex;
+  width: 265px;
+  overflow-x: scroll;
+}
+
+.page {
+  padding: 5px;
+  width: 10px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.active {
+  background: rgb(255, 251, 0);
+}
+
+span {
+  color: black;
+}
+
+.repo-wrapper a {
+  text-decoration: none;
+}
+.repo-wrapper {
+  width: 600px;
+  height: 80px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.repo-wrapper h4 {
+  margin-left: 5px;
+}
+
+.personal-url {
+  margin-left: 5px;
+}
+
+#nav ul {
+  display: flex;
+  justify-content: space-around;
+  line-height: 50px;
+  width: 150px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+#nav li {
+  list-style-type: none;
+}
+
+#nav li a {
+  display: block;
+  height: 40px;
+  text-align: center;
+  width: 60px;
+  text-decoration: none;
+  color: black;
+}
+
+#form {
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#form button {
+  width: 60px;
+  cursor: pointer;
+}
+
+#form input {
+  margin-top: 10px;
+}
+
+.watch a {
+  display: block;
+  margin-top: 5px;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: black;
+}
+
+#personal-repos h3 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#search-form {
+  width: 350px;
+  height: 130px;
+  margin-left: 20px;
+}
+
+#search-form h3 {
+  margin-left: 20px;
+}
+
+#search {
+  width: 220px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+#sort-items {
+  margin-top: 5px;
+}
+
+#search-start {
+  width: 240px;
+  margin-top: 14px;
+}
+
+#search-btn {
+  width: 50px;
+  cursor: pointer;
+}
+
+#settings {
+  width: 280px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+#settings * {
+  display: inline;
+  margin-top: 10px;
+}
+
+#settings input {
+  margin-left: 5px;
+}
+
+#repos {
+  margin-top: 20px;
+}
+
+.best-repo {
+  width: 600px;
+  height: 120px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+#pagination {
+  margin-top: 20px;
+}
+
+#next,
+#prev {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#repo-info {
+  width: 380px;
+  max-height: 460px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#title,
+#date-time-create,
+#date-time-update,
+#langs,
+#forks,
+#not-issues {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#langs li {
+  margin-left: 20px;
+}
+
+#best-repos-wrapper {
+  width: 700px;
+  max-height: 450px;
+  margin-top: 40px;
+  overflow-y: scroll;
+}
