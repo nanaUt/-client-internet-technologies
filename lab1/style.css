@@ -1,0 +1,47 @@
+body {
+  font: 10pt Arial, Helvetica, sans-serif;
+  background: #54463d;
+  margin: 0; /* off отступы */
+}
+h2 {
+  font-size: 1.1em;
+  color: #1d2ec4;
+  margin-bottom: 10;
+}
+#container {
+  width: 1365px;
+  height: 625px;
+  background: #f9dbff;
+}
+#header {
+  background: #7d32e0;
+  font-size: 24pt;
+  text-align: center;
+  font-weight: bold;
+  color: #edeed5;
+  padding: 30px;
+}
+#content {
+  float: left;
+  width: 1129px;
+  height: 500px;
+  padding: 10px;
+  background: #fff;
+}
+#sidebar {
+  float: left;
+  width: 120px;
+  padding: 10px;
+}
+#footer {
+  background: #7d32e0;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  position: fixed;
+  width: 1365px;
+  bottom: 0px;
+}
+.clear {
+  clear: both; /* Отмена обтекания */
+}
